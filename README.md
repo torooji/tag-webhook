@@ -99,3 +99,17 @@ ID  TITLE                       LABELS  UPDATED
 #4  New Tag Created: release-3          about 3 minutes ago
 tinaorooji@Tinas-MacBook-Air tag-webhook %
 ```
+
+5. Verify issue details
+
+```console
+tinaorooji@Tinas-MacBook-Air tag-webhook % gh issue view 4
+New Tag Created: release-3 torooji/tag-webhook#4
+Open • torooji opened about 12 hours ago • 0 comments
+
+
+  A new tag  release-3  was created by @torooji in the  torooji/tag-webhook  repository.
+
+
+View this issue on GitHub: https://github.com/torooji/tag-webhook/issues/4
+```
