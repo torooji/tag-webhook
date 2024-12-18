@@ -26,6 +26,8 @@ Communication with GitHub is handled by octokit. This approach follow's GitHub's
 
 ## Local Development Setup
 
+### Create dev environment
+
 1. Checkout the git repo
 
 ```console
@@ -48,13 +50,15 @@ PORT=3000
 npm install
 ```
 
-3. Run the application locally
+### Run locally
+
+1. Run the application locally
 
 ```console
 npm run start:dev
 ```
 
-4. Use ngrok to expose the local server
+2. Use ngrok to expose the local server
 
 ```console
 tinaorooji@Tinas-MacBook-Air ~ % ngrok http --url=cuddly-monitor-forcibly.ngrok-free.app 3000
